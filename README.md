@@ -17,10 +17,14 @@ End the program
 #Program to find the solution for the given linear equations.
 #Developed by: Sriharan J.V
 #RegisterNumber: 212223100054
-import numpy as np
+import numpy as np 
+
 A=np.array([[1,-3],[3,1]])
+
 B=np.array([0,10])
+
 result=np.linalg.solve(A,B)
+
 print(result)
 
 ## Output:
